@@ -1,0 +1,32 @@
+/* css background gradients generator  https://cssgradient.io/ */
+/* css text gradient generator https://www.cssportal.com/css-text-gradient-generator/ */
+
+.text{
+font-size: 18px;
+background: #121FCF;
+background: linear-gradient(to right, #121FCF 28%, #CF1512 77%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.flex{
+    display: flex;
+    gap: 12px;
+}
+
+.card1{
+    width: 400px;
+    height: 300px;
+
+    background: rgb(34,193,195);
+    background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+.card2{
+    width: 400px;
+    height: 300px;
+
+    background: rgb(20,90,184);
+    background: linear-gradient(59deg, rgba(20,90,184,1) 0%, rgba(160,22,234,1) 69%);
+}
+

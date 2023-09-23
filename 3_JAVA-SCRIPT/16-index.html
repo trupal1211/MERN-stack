@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./16-style.css">
+</head>
+<body>
+    <div class="alert">Start Adding your Personal task 👨🏻‍💻 and Manage Them 🤩 at a same place.</div>
+
+    <div class="container">
+
+        <div class="add-flex">
+            <h2 class="title">manage your task <span class="tag-name">@trupal</span></h2>
+            <button class="add-task-svg" onclick="displayAddTask()"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
+              </svg></button>
+
+        </div>
+        <p class="disc">create ToDo List for manage your all personal task.</p>
+
+        <div id="add-task">
+            <div class="input-flex">
+            <input id="taskinput" class="task-input" type="text" placeholder="">
+            <input id="dateinput" class="date-input" type="datetime-local">
+            </div>
+            <button class="add-btn" onclick="addTask()"> Add Task </button>
+       </div>
+    </div>
+
+    <div class="todos-container" id="todoscontainer">
+        <!-- <div class="card">
+            <div class="card-flex">
+                <input class="checkbox" type="checkbox">
+                <input class="task-edit" value="complete collage assignments">
+            </div>
+            <div class="duedate">monday, 31 may</div>
+        </div> -->
+    </div>
+
+</body>
+
+<script src="./16-ToDo.js"></script>
+</html>

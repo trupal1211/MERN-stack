@@ -1,0 +1,211 @@
+body{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main-page{
+display: flex;
+}
+
+.sidebar{
+    height: 100vh;
+    width: 20vw;
+    background-color: rgb(32,33,35);
+     
+}
+
+.content{
+    height:100vh;
+    width: 80vw;
+    background-color: rgb(52,53,65);
+    position: relative;
+}
+
+.title{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    color: white;
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+.container{
+    width: 700px;
+    margin: 30px auto 0 auto;
+    display: flex;
+    gap: 12px;
+    text-align: center;
+    justify-content: center;
+}
+
+.card{
+    width: 220px;
+    color: white;
+}
+
+
+
+.card-img{
+    height: 22px;
+    width: 22px;
+    color: white;
+    margin-bottom: -10px;
+}
+
+.card-content{
+    padding: 10px;
+    font-size: 14px;
+    background-color: rgb(62,63,75);
+    border-radius: 6px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+
+.card-content:hover{
+    background-color:  rgb(32,33,35);
+ }
+ 
+.arrow-img{
+    height: 18px;
+    width: 18px;
+    color: white;
+    position: absolute;
+    bottom:0;
+    right: 0;
+    margin-bottom: 110px;
+    margin-right: 20px;
+    border-radius: 50%;
+    padding: 4px;
+    background-color:rgb(62,63,75) ;
+}
+
+.input{
+    padding:16px 10px;
+
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    background-color:rgb(64,65,79);
+    width: 700px;
+    margin: 0 auto;
+    box-sizing: border-box;
+} 
+
+.input:focus{
+    outline: none;
+    border: none;
+}
+
+.input-box{
+    margin-left: 115px;
+    margin-top: 25px;
+    position: relative;
+}
+
+.send-img{
+    height: 16px;
+    width: 16px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 55px;
+    margin-right: 140px;
+    color: rgb(107,108,123) ;
+}
+
+.bottom-text{
+    margin-bottom: 15px;
+    font-size: 11px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+/*  --------------------------------  */
+ 
+.new-logo{
+    height: 14px;
+    width: 14px;
+    margin-right: 14px;
+    margin-left: 10px;
+    margin-bottom: 2px;
+}
+
+.hide-logo{
+    height: 14px;
+    width: 14px;
+    margin-right: 10px;
+}
+
+.new-btn{
+    border: 1px solid rgb(77,77,79);
+    border-radius: 8px;
+    width: 15vw;
+    padding: 0px;
+    background-color:rgb(32,33,35) ;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.hide-btn{
+    border: 1px solid rgb(77,77,79);
+    border-radius: 8px;
+
+    padding:6px 6px 6px 14px;
+    background-color:rgb(32,33,35) ;
+    color: white;
+}
+
+.btn-set{
+    margin: 8px 6px;
+    display: flex;
+    gap: 6px;
+} 
+
+
+
+
+
+.history-continer{
+   margin: 10px 10px;
+
+}
+
+.time{
+    font-size: 14px;
+    color: rgb(142,142,160);
+    margin: 20px 0;
+}
+
+.details{
+ display: flex;
+ align-items: center;
+ padding: 10px 5px;
+}
+
+.details:hover{
+    border-radius: 5px;
+    background-color:rgb(64,65,79);
+    cursor: pointer;
+}
+
+.comment-logo{
+    height: 16px;
+    width: 16px;
+    color: white;
+    margin-top: 4px;
+    margin-right: 10px;
+}
+
+.details p{
+    margin: 0;
+    color: white;
+    font-size: 14px;
+
+}
+
+

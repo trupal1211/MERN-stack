@@ -1,0 +1,104 @@
+/* -------pasudo class (::) ---------------- */
+
+.title{
+    width: 200px;
+    margin: auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+
+.title::first-line{   /* first character */
+color: blue;
+}
+
+/*  other is using <span> , that is inline tag */
+
+
+::selection{     
+    background-color: black;
+    color:white;
+}
+
+
+
+.title::before{
+    content: 'Title : ';
+}
+
+.title::after{
+    content: '🤩';
+}
+
+
+
+/* ----------pesudo elements (:) -------------- */
+
+.user{
+    width: 400px;   /*  without width did not move */
+    margin: 50px auto;
+}
+
+.user li:before{
+    content: '👉';
+}
+.user li:first-child{     
+    color: blue;
+}
+
+.user li:last-child{     
+    color: blue;
+}
+
+.user li:nth-child(4){     
+    color: orangered;
+}
+
+.user li:nth-child(odd){     
+    color:pink;
+}
+
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;    
+    width: 800px;
+    margin: 50px auto;
+  }
+  
+  td, th {
+    border: 1px solid hsl(0, 0%, 87%);
+    text-align: left;
+    padding: 8px;
+  }
+
+tr:nth-child(odd)
+{
+    background-color: lightgrey;
+}
+
+tr:hover{
+    background-color: black;
+    color: white;
+  }
+
+
+
+  
+.link{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+
+.link:hover{
+    color: palevioletred;
+}
+
+.link:visited{
+    color:red;
+}
+
+.link:active{
+    color: green;
+}
